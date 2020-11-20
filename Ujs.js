@@ -1,10 +1,10 @@
-class Ujs {
-  constructor(array) {
-    this.array = array;
-    console.log(array);
-  }
+// Adds new property methods to the Array object prototype
 
-  cloneAndRemoveDuplicates() {}
-}
+const Ujs = (function () {
+  // Clones and removes any duplicate in the array
+  Array.prototype.cloneAndRemoveDuplicate = function () {
+    return Array.from(new Set(this));
+  };
+})();
 
 module.exports = Ujs;
