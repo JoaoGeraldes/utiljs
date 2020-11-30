@@ -1,4 +1,4 @@
-const Ujs = require("./Ujs");
+const Ujs = require("./Ujs.js");
 
 const arrayWithDuplicatedNumbers = [1, 5, 3, 2, 5, 4];
 const arrayWithDuplicatedStrings = ["A", "D", "C", "E", "F", "D", "C", "B"];
