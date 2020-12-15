@@ -1,6 +1,8 @@
 # utiljs
 
-Utilities for Arrays
+Utilities for Arrays - 
+Uses ES6 syntax and JavaScript native methods.
+The purpose of this utility is to provide better semantics, not custom algorithms.
 
 
 
